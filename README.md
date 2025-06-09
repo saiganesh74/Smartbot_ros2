@@ -6,9 +6,9 @@ SmartBot is a modular, beginner-friendly robot built using ROS2 and Python. This
 
 ## Features
 
-- ✅ `teleop_node`: Publishes `/cmd_vel` velocity commands using keyboard inputs or internal logic.
-- ✅ `base_controller_node`: Simulates robot motion by printing received velocities.
-- 🚧 Modular design for easy integration of:
+- `teleop_node`: Publishes `/cmd_vel` velocity commands using keyboard inputs or internal logic.
+- `base_controller_node`: Simulates robot motion by printing received velocities.
+- Modular design for easy integration of:
   - Motor driver logic
   - Obstacle sensors
   - Mapping and navigation
@@ -18,14 +18,14 @@ SmartBot is a modular, beginner-friendly robot built using ROS2 and Python. This
 
 ## Installation & Setup
 
-### ✅ Prerequisites
+### Prerequisites
 
 - Ubuntu 20.04 or 22.04
 - ROS2 Humble (or later) installed
 - Python 3.10+
 - `colcon` build tool
 
-### 📦 Setup Steps
+### Setup Steps
 
 ```bash
 # Clone the repository
