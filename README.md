@@ -39,7 +39,7 @@ rosdep install --from-paths src --ignore-src -r -y
 colcon build
 
 # Source the workspace (every new terminal session)
-source install/setup.bash
+` source install/setup.bash `
 
 ### Structure
 ```
