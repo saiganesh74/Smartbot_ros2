@@ -1,5 +1,16 @@
-smartbot_ws/build/
-smartbot_ws/install/
-smartbot_ws/log/
+# ROS2 build and install directories
+build/
+install/
+log/
+
+# Python cache files
 *.pyc
 __pycache__/
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
