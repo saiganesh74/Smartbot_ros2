@@ -1,0 +1,5 @@
+smartbot_ws/build/
+smartbot_ws/install/
+smartbot_ws/log/
+*.pyc
+__pycache__/
