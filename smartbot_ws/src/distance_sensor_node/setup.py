@@ -20,6 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+                    'distance_sensor = distance_sensor_node.distance_sensor:main',
+
         ],
     },
 )
