@@ -20,6 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+                    'safety_controller = safety_controller_node.safety_controller:main',
+
         ],
     },
 )
